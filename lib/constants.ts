@@ -17,7 +17,7 @@
 export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'Videira Mpt - Vigilia';
+export const BRAND_NAME = 'Vigilia - O Tesouro Esta Na Casa';
 export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
 export const SITE_NAME = 'ACME Conf';
 export const META_DESCRIPTION =
