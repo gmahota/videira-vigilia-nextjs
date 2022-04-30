@@ -50,7 +50,7 @@ export default function Hero() {
         <p>{DATE}</p>
         <div className={styles['description-separator']} />
         <p>
-          <strong>Online</strong>
+          <strong><a href="https://instagram.com/videiramaputo">Igreja Videira</a></strong>
         </p>
       </div>
     </div>
