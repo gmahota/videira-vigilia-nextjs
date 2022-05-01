@@ -21,6 +21,7 @@ import { Sponsor } from '@lib/types';
 import styles from './sponsors-grid.module.css';
 
 function SponsorCard({ sponsor }: { sponsor: Sponsor }) {
+  console.log(sponsor)
   return (
     <Link key={sponsor.name} href={`/expo/${sponsor.slug}`}>
       <a
