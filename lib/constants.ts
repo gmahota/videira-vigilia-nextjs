@@ -17,13 +17,13 @@
 export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'Vigilia - O Tesouro Esta Na Casa';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
+export const BRAND_NAME = '1ª Vigilia - O Tesouro Esta Na Casa';
+export const SITE_NAME_MULTILINE = ['Videira', 'Vigilia'];
 export const SITE_NAME = 'ACME Conf';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
+  'O Tesouro esta no nosso alcance, é só perceber aproveitar o maximo! Prov. 21:20';
 export const DATE = 'Maio de  06, 2022';
 export const SHORT_DATE = 'Mai 06 - 10:00pm PST';
 export const FULL_DATE = 'Mai 06th 10pm Pacific Time (GMT-7)';
