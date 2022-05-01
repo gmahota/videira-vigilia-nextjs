@@ -19,7 +19,7 @@ export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_U
 export const TWITTER_USER_NAME = 'vercel';
 export const BRAND_NAME = '1ª Vigilia - O Tesouro Esta Na Casa';
 export const SITE_NAME_MULTILINE = ['Videira', 'Vigilia'];
-export const SITE_NAME = 'ACME Conf';
+export const SITE_NAME = 'Videira MPT';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
 export const SITE_DESCRIPTION =
@@ -41,23 +41,23 @@ export const REPO = 'https://github.com/gmahota/videira-vigilia-nextjs.git';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
+    name: '1ª Vigilia',
     route: '/stage/a'
   },
   {
-    name: 'Schedule',
+    name: 'Agendamento',
     route: '/schedule'
   },
   {
-    name: 'Speakers',
+    name: 'Pregadores',
     route: '/speakers'
   },
   {
-    name: 'Expo',
+    name: 'Vimha Moz',
     route: '/expo'
   },
   {
-    name: 'Register',
+    name: 'Inscreva-te',
     route: '/jobs'
   }
 ];

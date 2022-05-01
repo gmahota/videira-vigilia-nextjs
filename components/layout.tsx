@@ -21,6 +21,7 @@ import { SkipNavContent } from '@reach/skip-nav';
 import { NAVIGATION } from '@lib/constants';
 import styles from './layout.module.css';
 import Logo from './icons/icon-logo';
+import Image from 'next/image';
 import MobileMenu from './mobile-menu';
 import Footer, { HostedByVercel } from './footer';
 import ViewSource from '@components/view-source';
@@ -47,7 +48,16 @@ export default function Layout({ children, className, hideNav, layoutStyles }: P
               <Link href="/">
                 {/* eslint-disable-next-line */}
                 <a className={styles.logo}>
-                  <Logo />
+                  {/* <Logo /> */}
+                  <Image
+                      loading="lazy"
+                      alt="Logo"
+                      src="/icon.png"
+                      // title={s.name}
+                      width={200}
+                      height={200}
+                    />
+
                 </a>
               </Link>
             </div>

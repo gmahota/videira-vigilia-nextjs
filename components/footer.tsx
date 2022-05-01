@@ -28,7 +28,7 @@ export function HostedByVercel() {
       rel="noopener noreferrer"
     >
       <div className={styles['secondary-text']}>Created by </div>
-      <VercelLogo color="white" />
+      Guimarães Mahota
     </a>
   );
 }
