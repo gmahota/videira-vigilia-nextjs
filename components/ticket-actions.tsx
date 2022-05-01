@@ -17,7 +17,7 @@
 import { useState, useRef, useEffect } from 'react';
 import cn from 'classnames';
 import { SITE_URL, TWEET_TEXT } from '@lib/constants';
-import IconTwitter from './icons/icon-twitter';
+import IconTwitter from './icons/icon-instagram';
 import IconLinkedin from './icons/icon-linkedin';
 import IconDownload from './icons/icon-download';
 import LoadingDots from './loading-dots';

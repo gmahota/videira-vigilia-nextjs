@@ -20,7 +20,6 @@ import { useRouter } from 'next/router';
 import { SkipNavContent } from '@reach/skip-nav';
 import { NAVIGATION } from '@lib/constants';
 import styles from './layout.module.css';
-import Logo from './icons/icon-logo';
 import Image from 'next/image';
 import MobileMenu from './mobile-menu';
 import Footer, { HostedByVercel } from './footer';

@@ -57,7 +57,7 @@ export const NAVIGATION = [
     route: '/expo'
   },
   {
-    name: 'Inscreva-te',
+    name: 'Envolva-te',
     route: '/jobs'
   }
 ];
